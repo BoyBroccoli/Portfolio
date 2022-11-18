@@ -3,6 +3,16 @@
 
 // Include any default variable overrides here 
 
+$body-bg: #000;
+$body-color: #FFF;
+
+$primary: #457B9D;
+$danger: #E63946;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
