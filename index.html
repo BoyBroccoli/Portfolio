@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/bootstrap-custom.css">
-    <link href="style.css" rel = "stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>DSB Portfolio</title>
 </head>
+
 <body>
     <!--NavBar Header and Info-->
     <header class="header">
         <nav class="navbar justify-content-center">
             <div class="container-fluid">
-                <a class ="navbar-brand" href=""#"> DSB</a>
+                <a class="navbar-brand" href="" #"> DSB</a>
                 <!-- Can put Logo Photo Here-->
                 <!-- img class="thumb" src"" alt="" width="" height=""-->
                 <ul class="nav justify-content-center">
@@ -24,7 +26,7 @@
                         <a class="nav-link" href="#">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#section2">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -33,51 +35,105 @@
             </div>
         </nav>
     </header>
-    
 
-    <main class="main">
 
-        <!-- Row 1 -->
-        <div class="row1">
+
+
+    <!-- Row 1  -->
+
+    <section id="section1">
+        <div class="flex-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 text-center align-self-center">
                         <h1>Hi! I'm Dawan!</h1>
-                        <p>I'm a Developer, Data Analyst, Content Creator, 
+                        <p>I'm a Developer, Data Analyst, Content Creator,
                             Documentor, and Motivated Volunteer based in Halifax,
-                             Nova Scotia.</p>
+                            Nova Scotia.</p>
                     </div>
                     <div class="col-sm-6">
-                        <img class="img-fluid" 
-                        src="./images/CorporateMemphisExample2.png" alt="Image of corporate memphis">
+                        <img class="img-fluid" src="./images/CorporateMemphisExample2.png" alt="Image of corporate memphis">
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Row 2 -->
-        <div class="row2">
+    </section>
+
+    <!-- Row 2 -->
+    <section id="section2">
+        <div class="flex-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <img class="img-fluid align-items-md-center" src="./images/MemphisCorporateGifExample3.gif"
-                        alt="Image of Corporate memphis">
+                            alt="Image of Corporate memphis">
                     </div>
                     <div class="col-sm-6 text-center align-self-center">
                         <h1>Portfolio!</h1>
-                        <p>From self made blog websites, to databases, programs in various languages, 
+                        <p>From self made blog websites, to databases, programs in various languages,
                             and a content YouTube channel
                             are some of the many creatioins!
                         </p>
                     </div>
                 </div>
+
+                <div class="row">
+
+                    <!--WantanSoup Card-->
+                    <div class="col portfolio-cards"> 
+                        <a href="https://wantansoup.github.io/" target="_blank">
+                            <img class="img-fluid-align-items-mid-center" src="./images/WantanSoup-Screenshot.png"
+                                alt="Image logo for Wantan Soup">
+                        </a>
+                        <p>
+                            WantanSoup is a blog focusing on Literature, music, videos, and art!
+                        </p>
+                    </div>
+
+                    <!--bball erd Card-->
+                    <div class="col portfolio-cards"> 
+                        <a href="C:\Users\w0465310\OneDrive - Nova Scotia Community College\2ndSemester\APPD1001\Portfolio\images\West_Basketball_ERD.jpg" 
+                            target="_blank">
+                            <img class ="img-fluid-align-items-mid-center" src="./images/West_Basketball_ERD.jpg"
+                                alt = "ERD Image of Database">
+                        </a>
+                        <p>
+                            A database created and used for collecting basketball statistics!
+                        </p>
+                    </div>
+
+                    <!--Glitch Card-->
+                    <div class="col portfolio-cards"> 
+                        <a href="https://github.com/BoyBroccoli/Glitch" target="_blank">
+                            <img class="img-fluid-align-items-mid-center" src="./images/DALL·E 2022-11-08 21.48.58-Glitch.png"
+                                alt="Screenshot of GLITCH logo using ">
+                        </a>
+                        <p>
+                            Glitch is a virtual personal assistant created in the python lanuage!
+                        </p>
+                    </div>
+                    
+                    <!--WantanFilms Youtube Card-->
+                    <div class="col portfolio-cards"> 
+                        <a href="https://www.youtube.com/@wantanfilms" target="_blank">
+                            <img class="img-fluid-align-items-mid-center" src="./images/wantanFilms.png"
+                                alt="Screenshot of WantanFilms Youtube Channel">
+                        </a>
+                        <p>
+                            I often Create content videos and broadcast them on YouTube under the handle WantanFilms
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-    
-    <footer class = "footer">
+    </section>
+
+
+    <footer class="footer">
 
     </footer>
 
 </body>
+
 </html>

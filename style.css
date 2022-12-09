@@ -1,21 +1,34 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .header{
     background-color: #EAC4D5;
     padding: .5%;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.main{
-    padding-top: 100px;
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-.row1{
-    padding-bottom: 100px;
+section{
+    height: 100%;   
 }
-.row2{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #B6E2BA;
+
+#section2{
+    background-color: #B8E0D2;
 }
-/* .row1{
-    padding: 20%;
-} */
+
+.portfolio-cards{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
