@@ -29,6 +29,7 @@ html,body{
     background-color: #B8E0D2;
     padding-top: 20px; 
     padding-bottom: 15px;
+    height: 100%;
 }
 
 .portfolio-card{
@@ -37,7 +38,7 @@ html,body{
 }
 
 .footer{
-    background-color: #FFFD74;
+    background-color: #FFFFA7;
     padding: .5%;
 }
 .footer h1{
