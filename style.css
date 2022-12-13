@@ -25,11 +25,15 @@ html,body{
     padding-bottom: 15px;
 }
 
+#section1 img{
+    padding-top: 15px;
+}
+
 #section2{
     background-color: #B8E0D2;
     padding-top: 20px; 
     padding-bottom: 15px;
-    height: 100%;
+    
 }
 
 .portfolio-card{
